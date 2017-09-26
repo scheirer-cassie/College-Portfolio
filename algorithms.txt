@@ -1,0 +1,153 @@
+1	brush teeth:
+2
+3	define walk
+4		lift left leg from ground
+5		move left leg forward
+6		place left foot on ground
+7		lift right leg from ground
+8		move right leg forward
+9		place right foot on ground
+10	
+11	if not in bathroom
+12		walk
+13		repeat
+14	else
+15		stop walking
+16
+17	place left hand on toothpaste
+18	place right hand on cap of toothpaste
+19	unscrew cap counter-clockwise
+20	place cap on counter
+21
+22	place right hand on base of toothbrush
+23	place opening of toothpaste onto bristles of toothbrush
+24	squeeze toothpaste onto toothbrush
+25	place toothpaste on counter
+26
+27	twist cold water handle with left hand until water flows
+28	for 1 second
+29		place toothbrush bristles under water
+30	twist cold water handle in other direction until water stops
+31	
+32	define brush
+33		lift toothbrush to teeth
+34		place toothbrush bristles on front of tooth
+35		scrub in circular motions
+36		move bristles to back of tooth
+37		scrub in circular motions
+38	
+39	for every tooth
+40		brush
+41
+42	if every tooth is brushed
+43		remove brush from teeth
+44		spit toothpaste into sink
+45		twist cold water handle until water flows
+46		for 5 seconds
+47			place toothbrush bristles under water
+48		twist colder water handle in other direction until water stops
+49		place toothbrush on counter
+50	else
+51		brush
+52
+53	look in mirror
+54	smile
+55
+56
+57	/////////////////////////////////////////////////////
+58
+59
+60	peel orange:
+61
+62	find orange
+63	place orange in right hand
+64
+65	define peel
+66		place left thumb on orange
+67		lightly push down nail of thumb into orange
+68		if thumb reaches fruit (squishy)
+69			stop pushing down
+70			move nail between orange peel and fruit
+71			pull up, removing peel
+72		else
+73			keep pushing down
+74
+75	peel orange
+76	if totally peeled
+77		stop peeling
+78	else
+79		keep peeling
+80
+81	grab peel scraps in one hand
+82	throw away peel scraps in trash
+83
+84	enjoy orange
+85
+87
+88	///////////////////////////////////////////////////
+89
+90
+91	make a smoothie:
+92
+93	walk to refrigerator
+94	lift arm
+95	grab on to refrigerator handle
+96	pull refrigerator handle to open
+97	take out
+98		bottle of milk
+99		tub of yogurt
+100		box of berries
+101	place all items on counter
+102	push handle to close refrigerator
+103	
+104	walk to cabinet
+105	take out blender and cover
+106	place blender on counter
+107
+108	walk to freezer
+110	grab on to freezer handle
+111	pull freezer handle to open
+112	form hands into "cup" 
+113	put hands in ice
+114	take out handful of ice cubes
+115	put ice in blender
+116	close fridge door
+117
+118	pour into blender
+119		1 cup berries
+120		1 cup milk
+121		1/2 cup yogurt
+122
+123	put cover on blender
+124	press blend button
+125	while blending
+126		walk to cabinet
+127		take large glass
+128
+129	define taste
+130		get spoon
+131		dip spoon in smoothie
+132		put smoothie spoon in mouth
+133
+134	if consistency is good
+135		taste
+136	if consistency is too thick
+137		add milk
+138		taste
+139	if consistency is too thin
+140		add yogurt or ice
+141		taste
+142	
+143	if taste is good
+144		press stop blending button
+145		pour liquid into glass
+146		drink smoothie
+147	if taste is too sweet
+148		add milk or ice
+149		taste
+150	if taste is too sour
+151		add berries or yogurt
+152		taste
+153	
+154	return items to original places
+155	clean dishes	
