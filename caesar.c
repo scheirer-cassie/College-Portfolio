@@ -6,7 +6,7 @@
 // built-in functions
 
 // intital declaration of variables and functions
-int shift(int k, char crtr);
+int shift(int key, char crtr);
 string plaintext;
 int i;
 int n;
