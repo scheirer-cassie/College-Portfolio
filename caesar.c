@@ -59,12 +59,14 @@ int shift(int key, char crtr)
     // for all uppercase characters
     if (isupper(plaintext[i]))
     {
+        // specific math found on CS50 Stack Exchange
         crtr = (((plaintext[i] + key) - 65) % 26) + 65;
         return crtr;
     }
     // for all lowercase characters
     else if (islower(plaintext[i]))
     {
+        // specific math found on CS50 Stack Exchange
         crtr = (((plaintext[i] + key) - 97) % 26) + 97;
         return crtr;
     }
